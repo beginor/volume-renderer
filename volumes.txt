@@ -1,0 +1,9 @@
+https://www.dl.dropboxusercontent.com/s/7d87jcsh0qodk78/fuel_64x64x64_uint8.raw?dl=1
+https://www.dl.dropboxusercontent.com/s/zgocya7h33nltu9/neghip_64x64x64_uint8.raw?dl=1
+https://www.dl.dropboxusercontent.com/s/jwbav8s3wmmxd5x/hydrogen_atom_128x128x128_uint8.raw?dl=1
+https://www.dl.dropboxusercontent.com/s/w4y88hlf2nbduiv/boston_teapot_256x256x178_uint8.raw?dl=1
+https://www.dl.dropboxusercontent.com/s/ld2sqwwd3vaq4zf/engine_256x256x128_uint8.raw?dl=1
+https://www.dl.dropboxusercontent.com/s/rdnhdxmxtfxe0sa/bonsai_256x256x256_uint8.raw?dl=1
+https://www.dl.dropboxusercontent.com/s/ic0mik3qv4vqacm/foot_256x256x256_uint8.raw?dl=1
+https://www.dl.dropboxusercontent.com/s/5rfjobn0lvb7tmo/skull_256x256x256_uint8.raw?dl=1
+https://www.dl.dropboxusercontent.com/s/3ykigaiym8uiwbp/aneurism_256x256x256_uint8.raw?dl=1

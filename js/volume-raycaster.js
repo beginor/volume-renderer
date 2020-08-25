@@ -38,15 +38,15 @@ const center = vec3.set(vec3.create(), 0.5, 0.5, 0.5);
 const up = vec3.set(vec3.create(), 0.0, 1.0, 0.0);
 
 var volumes = {
-	"Fuel": "7d87jcsh0qodk78/fuel_64x64x64_uint8.raw",
-	"Neghip": "zgocya7h33nltu9/neghip_64x64x64_uint8.raw",
-	"Hydrogen Atom": "jwbav8s3wmmxd5x/hydrogen_atom_128x128x128_uint8.raw",
-	"Boston Teapot": "w4y88hlf2nbduiv/boston_teapot_256x256x178_uint8.raw",
-	"Engine": "ld2sqwwd3vaq4zf/engine_256x256x128_uint8.raw",
-	"Bonsai": "rdnhdxmxtfxe0sa/bonsai_256x256x256_uint8.raw",
-	"Foot": "ic0mik3qv4vqacm/foot_256x256x256_uint8.raw",
-	"Skull": "5rfjobn0lvb7tmo/skull_256x256x256_uint8.raw",
-	"Aneurysm": "3ykigaiym8uiwbp/aneurism_256x256x256_uint8.raw",
+	"Fuel": "volumes/fuel_64x64x64_uint8.raw",
+	"Neghip": "volumes/neghip_64x64x64_uint8.raw",
+	"Hydrogen Atom": "volumes/hydrogen_atom_128x128x128_uint8.raw",
+	"Boston Teapot": "volumes/boston_teapot_256x256x178_uint8.raw",
+	"Engine": "volumes/engine_256x256x128_uint8.raw",
+	"Bonsai": "volumes/bonsai_256x256x256_uint8.raw",
+	"Foot": "volumes/foot_256x256x256_uint8.raw",
+	"Skull": "volumes/skull_256x256x256_uint8.raw",
+	"Aneurysm": "volumes/aneurism_256x256x256_uint8.raw",
 };
 
 var colormaps = {
@@ -61,8 +61,8 @@ var colormaps = {
 var loadVolume = function(file, onload) {
 	var m = file.match(fileRegex);
 	var volDims = [parseInt(m[2]), parseInt(m[3]), parseInt(m[4])];
-	
-	var url = "https://www.dl.dropboxusercontent.com/s/" + file + "?dl=1";
+
+	var url = "./" + file + "?dl=1";
 	var req = new XMLHttpRequest();
 	var loadingProgressText = document.getElementById("loadingText");
 	var loadingProgressBar = document.getElementById("loadingProgressBar");
